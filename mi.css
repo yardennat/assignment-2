@@ -1,0 +1,82 @@
+*{
+	font-family: "Lucida Console", Courier, monospace;
+}
+
+
+h1{
+	text-align: center;
+}
+
+section{
+  border: 1px solid black;
+  background-color: #808080;
+  width: 80%;
+  color: black;
+  margin-bottom: 5px;
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.row{
+	width: 100%;
+}
+section div{
+	clear: right;
+}
+
+#Chicken{
+	background-color: #B22222;
+	width:100px;
+	float: right;
+	border: 1px solid black;
+	text-align:center;
+	margin-top:auto;
+	color: white;
+}
+#Beef{
+	background-color: #006400;
+	width:100px;
+	float: right;
+	border: 1px solid black;
+	text-align:center;
+	margin-top:auto;
+	color: white;
+}
+#Sushi{
+	background-color: #00008B;
+	width:100px;
+	float: right;
+	border: 1px solid black;
+	text-align:center;
+	margin-top:auto;
+	color: white;
+}
+/*Tablet view*/
+
+
+/*desktop*/
+@media (min-width: 992px) {
+	.first-col-lg, .second-col-lg, .third-col-lg{
+		float: left;
+		width: 30%;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.first-col-md, .second-col-md, .third-col-md{
+		float: left;
+	}
+	.first-col-md {
+    	width: 48.73%;
+  	}
+  	.second-col-md{
+   	 	width: 48.73%;
+ 	}
+  	.third-col-md{
+    	width: 100%;
+ 	}
+}
+ 
+
