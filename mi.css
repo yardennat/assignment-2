@@ -1,5 +1,5 @@
 *{
-	font: monospace;
+	font-family: "Lucida Console", Courier, monospace;
 }
 
 h1{
@@ -7,15 +7,15 @@ h1{
 }
 section{
   border: 1px solid black;
-  background-color: #A52A2A;
+  background-color: #808080;
   width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  color: white;
+  color: black;
 }
 .row{
 	width: 100%;
+}
+section p{
+
 }
 
 /*Tablet view*/
@@ -28,5 +28,5 @@ section{
 }
 /*desktop*/
 @media(min-width: 992px){
-	
+
 }
